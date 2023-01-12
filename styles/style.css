@@ -163,25 +163,29 @@ height: 213px;
 max-width: 984px;
 margin: 0 auto;
 display: grid;
+padding-top: 92px;
 }
 
 .places__place {
     display: grid;
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: 460px 484px;
     grid-template-rows: repeat(3, min-content);
+    column-gap: 40px;
+    row-gap: 48px;
 }
 
 .places__title {
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    margin: 92px auto 48px auto;
+    margin: 80px 0 0 0;
 }
 
 .places__website {
     align-self: end;
     grid-row: 1;
     grid-column: 2;
+    margin: 0;
 }
 
 .places__url-title {
@@ -210,4 +214,83 @@ position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
+    margin: 0 0 26px 0;
+}
+
+.cover {
+margin: 92px auto 0 auto;
+max-width: 1184px;
+}
+
+.cover__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.cover__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 360px;
+    margin: 32px auto 0 auto;
+    color: #fff;
+}
+
+.cover__link {
+    margin: 0 auto;
+    max-width: 1184px;
+    min-height: 740px;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(42, 44, 47, 0.3),rgba(42, 44, 47, 0.3)),url(../images/cover-trains.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    margin: 92px auto 24px auto;
+}
+
+.footer__content {
+
+
+
+}
+
+.footer__links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__link {
+text-decoration: none;
+color: #fff;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+margin-right: 18px;
+}
+
+/* проверить размеры, бриф был недоступен,
+ не забыть!!!*/
+
+.footer__author {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
