@@ -1,0 +1,7 @@
+.header__lang {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: min-content;
+    list-style-type: none;
+    margin: 46px 0 0 0;
+}
