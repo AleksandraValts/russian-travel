@@ -12,4 +12,6 @@
 
 **Git**
 
-* [Ссылка на макет в Git](https://github.com/AleksandraValts/russian-travel.git)
+* [Ссылка на макет в Git](https://aleksandravalts.github.io/russian-travel/)
+
+
