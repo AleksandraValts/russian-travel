@@ -1,12 +1,12 @@
 .places__url {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    color: #fff;
-    transition: opacity, 0.3s linear;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #fff;
+  transition: opacity, 0.3s linear;
 }
 
 .places__url:hover {
-    opacity: 0.8;
-  }
+  opacity: 0.8;
+}
